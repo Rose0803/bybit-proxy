@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "api/kline.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/kline",
+      "dest": "api/kline.js"
+    }
+  ]
+}
